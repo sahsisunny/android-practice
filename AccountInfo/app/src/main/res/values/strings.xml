@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Account Info</string>
+    <string name="account_no">Account No.*</string>
+    <string name="_290900xxxxxx">290900XXXXXX</string>
+    <string name="punjab_national_bank">PUNJAB NATIONAL BANK</string>
+    <string name="punbxxxxxxx">PUNBXXXXXXX</string>
+    <string name="bank_name">Bank Name*</string>
+    <string name="ifsc_code">IFSC CODE*</string>
+    <string name="account_info">Account Info</string>
+    <string name="clear">CLEAR</string>
+    <string name="done">DONE</string>
+</resources>

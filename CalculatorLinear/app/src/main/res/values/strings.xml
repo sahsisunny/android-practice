@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CalculatorLinear</string>
+    <string name="calculator">CALCULATOR</string>
+    <string name="addition">+</string>
+    <string name="subtraction">-</string>
+    <string name="division">/</string>
+    <string name="multiplication">*</string>
+    <string name="equal">=</string>
+    <string name="num_1">Num 1</string>
+    <string name="num_2">Num 2</string>
+</resources>

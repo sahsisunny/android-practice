@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/account_info"
+        android:textColor="@color/black"
+        android:textSize="38sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/textview"
+            android:text="@string/account_no" />
+
+        <EditText
+            android:id="@+id/accnum"
+            style="@style/edittext"
+            android:autofillHints="no"
+            android:hint="@string/_290900xxxxxx"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/textView3"
+            style="@style/textview"
+            android:text="@string/bank_name" />
+
+        <EditText
+            android:id="@+id/bankname"
+            style="@style/edittext"
+            android:autofillHints="no"
+            android:hint="@string/punjab_national_bank"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textView4"
+            style="@style/textview"
+            android:text="@string/ifsc_code" />
+
+        <EditText
+            android:id="@+id/ifsccode"
+            style="@style/edittext"
+            android:autofillHints="no"
+            android:hint="@string/punbxxxxxxx"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/clear"
+        style="@style/btn"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/clear"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
+
+    <Button
+        android:id="@+id/done"
+        style="@style/btn"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="50dp"
+        android:text="@string/done"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

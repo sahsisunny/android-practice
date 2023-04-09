@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">LoginHere</string>
+    <string name="user">user</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="forgot_your_password">Forgot your password?</string>
+    <string name="login_here">Login Here</string>
+    <string name="passhint">********</string>
+    <string name="username">Username</string>
+</resources>

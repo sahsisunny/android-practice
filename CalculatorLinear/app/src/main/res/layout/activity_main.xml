@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sunny"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calculator"
+        android:textColor="#E60202"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <EditText
+            android:id="@+id/num1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:autofillHints="0"
+            android:ems="10"
+            android:hint="@string/num_1"
+            android:inputType="number"
+            android:textColor="#EF0606"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/num2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:autofillHints="0"
+            android:ems="10"
+            android:hint="@string/num_2"
+
+            android:inputType="number"
+            android:textColor="#F60303"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#FD0808"
+        android:textStyle="bold"
+        android:textSize="34sp" />
+
+    <Button
+        android:id="@+id/add"
+        style="@style/btn"
+        android:text="@string/addition" />
+
+    <Button
+        android:id="@+id/sub"
+        style="@style/btn"
+        android:text="@string/subtraction" />
+
+    <Button
+        android:id="@+id/multi"
+        style="@style/btn"
+        android:text="@string/multiplication" />
+
+    <Button
+        android:id="@+id/division"
+        style="@style/btn"
+        android:text="@string/division" />
+
+    <Button
+        android:id="@+id/equal"
+        style="@style/btn"
+        android:text="@string/equal" />
+</LinearLayout>
